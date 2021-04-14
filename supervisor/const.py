@@ -426,14 +426,3 @@ class LogLevel(str, Enum):
     WARNING = "warning"
     ERROR = "error"
     CRITICAL = "critical"
-
-
-class HostFeature(str, Enum):
-    """Host feature."""
-
-    HASSOS = "hassos"
-    HOSTNAME = "hostname"
-    NETWORK = "network"
-    REBOOT = "reboot"
-    SERVICES = "services"
-    SHUTDOWN = "shutdown"
